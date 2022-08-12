@@ -32,7 +32,7 @@
       </div>
       <div class="scroll-btn">
         <div class="scroll-bar">
-          <a href=""><span></span></a>
+          <a href="#about"><span></span></a>
         </div>
       </div>
     </section>
@@ -61,19 +61,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link" aria-current="page" href="#top">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT ME</a>
+                  <a class="nav-link" href="#about">ABOUT ME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">RESUME</a>
+                  <a class="nav-link" href="#resume">RESUME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">SERVICES</a>
+                  <a class="nav-link" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">CONTACT</a>
+                  <a class="nav-link" href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -264,6 +264,12 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Smooth scroll -->
+    <script src="./smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
   <!-- ! : time: 55:25 -->
 </html>
